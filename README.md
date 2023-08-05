@@ -12,7 +12,7 @@ Wer: 58.5848
 [Read Model documentation](https://huggingface.co/docs/transformers/main/en/model_doc/whisper#transformers.WhisperForConditionalGeneration)
 
 ### Example of usage:
-```
+```python
 from transformers import AutoProcessor, AutoModelForSpeechSeq2Seq
 
 processor = AutoProcessor.from_pretrained("Salama1429/KalemaTech-Arabic-STT-ASR-based-on-Whisper-Small")
